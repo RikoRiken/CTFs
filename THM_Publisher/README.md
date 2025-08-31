@@ -147,6 +147,16 @@ Listing he's home directory gives us the first user flag `user.txt`.
 
 <img src="./assets/Publisher_think-home.png">
 
+<br> 
+
+The last thing to check before going forward in our challenge is the .ssh directory in **think** home directory. `.ssh` is readable for everyone and we can find the **private key** for user think ! We can simply copy/paste the content of the id_rsa key on our attacker machine, and connect to the account without any password in ssh. 
+
+⚠️ Remember to always give the good permissions to the key on your machine with `chmod 700 [key_file]` and connect to ssh with `-i` arg to give the key path.
+
+<img src="./assets/Publisher_ssh.png">
+
+<br>
+
 ### 3. PrivEsc
 
 
