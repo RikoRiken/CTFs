@@ -43,3 +43,13 @@ Effectively, we found to `.docx` documents on the desktop that are encrypted :
 
 ### 2. Find the key and decrypt our files
 
+We got a quick hint in the description of the challenge, that there is interesting things in the `/tmp` folder. Let's see what's inside : 
+
+```
+cd /tmp                 (we find public_key.txt in it)
+
+cat public_key.txt
+```
+
+<img src="./assets/DarkMatter_RSA-public-key.png" width="67%">
+
