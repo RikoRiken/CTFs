@@ -8,7 +8,7 @@ This is my collection of some CTFs and write-ups I've made.
 ## Table of contents 
 
 - ***TryHackMe* - Neighbour** → [SEE WRITE-UP](https://github.com/RikoRiken/CTFs/tree/main/THM_Neighbour)
-- ***TryHackMe* - Publisher** → [SEE WRITE-UP](https://github.com/RikoRiken/CTFs/tree/main/THM_DarkMatter)
+- ***TryHackMe* - Publisher** → [SEE WRITE-UP](https://github.com/RikoRiken/CTFs/tree/main/THM_Publisher)
 - ***TryHackMe* - DarkMatter** → [SEE WRITE-UP](https://github.com/RikoRiken/CTFs/tree/main/THM_DarkMatter)
 
 `... more incoming`
