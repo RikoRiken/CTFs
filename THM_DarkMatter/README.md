@@ -53,3 +53,20 @@ cat public_key.txt
 
 <img src="./assets/DarkMatter_RSA-public-key.png" width="67%">
 
+<br>
+
+Once we have the public key with the value of `n` and `e`. 
+
+We also notice that `n` is <u>only</u> 128 bits long, proving this key is EXTREMELY insecure, the standard is 1024 or 2048 bits.
+
+<br>
+
+**Now, we can try to decrypt the key with dcode.fr website !**
+
+<img src="assets/DarkMatter_RSA-decode.png" width="67%" align="center">
+
+<br>
+
+As you can see, the website successfully achieved the task to decode the key due to low key value (only 128 bits). For your information, `d` is the private key made with `n` and `e`, check [this article](https://medium.com/@mazen.elheni/understanding-rsa-encryption-a-simple-guide-using-c-ee1873a1f54a) form *Mazen Elheni* on Medium to well understand.
+
+### 3. Decrypting the `.docx` files
