@@ -17,7 +17,7 @@ This is my collection of some CTFs and write-ups I've made.
 
 ## Some tools used and documentation
 
-<table width="67%">
+<table width="100%">
     <thead>
         <tr>
             <td><b>OUTILS</b></td>
