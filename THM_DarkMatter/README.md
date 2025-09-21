@@ -70,3 +70,11 @@ We also notice that `n` is <u>only</u> 128 bits long, proving this key is EXTREM
 As you can see, the website successfully achieved the task to decode the key due to low key value (only 128 bits). For your information, `d` is the private key made with `n` and `e`, check [this article](https://medium.com/@mazen.elheni/understanding-rsa-encryption-a-simple-guide-using-c-ee1873a1f54a) form *Mazen Elheni* on Medium to well understand.
 
 ### 3. Decrypting the `.docx` files
+
+With our `d` value in the pocket, we know we can try to decrypt the documents with the private key previously decrypted. Back on our desktop (cf: 1. Discover the infected machine), we can enter the value in the blank pop-up field, the **decryption key** !
+
+Opening the first Word document decrypted and.... BOOM 💥
+
+<img src="assets/DarkMatter_flag.png" width="50%">
+
+We finally managed to find the flag, and finish this new easy CTF.
