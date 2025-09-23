@@ -16,7 +16,6 @@
 
 - **[Setup & Tools](#setup-and-tools)**
 - **[Write-up](#write-up)**
-
 <br>
 
 ## Setup and Tools 
@@ -25,7 +24,6 @@
 - ffuf (fuzzing directories)
 - Burp Suite (web pentest)
 - Web knowledges (protocols, how it works...)
-
 <br>
 
 ## Write-Up
