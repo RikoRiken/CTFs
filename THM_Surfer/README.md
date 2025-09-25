@@ -39,7 +39,7 @@ To begin, we've an IP address so we start by enumerating the directories of this
 - Providing the IP with `-u` flag,
 - Recursively with `-r` flag.
 
-<img src="./assets/Surfer_Dir-FUZZ.png" width="50%">
+<img src="./assets/Surfer_Dir-FUZZ.png" width="100%">
 
 We found (maybe) some interresting webpages : 
 - backup
@@ -51,7 +51,7 @@ We found (maybe) some interresting webpages :
 
 The `index.php` redirect to a login page :
 
-<img src="./assets/Surfer_Website-login.png" width="67%">
+<img src="./assets/Surfer_Website-login.png" width="100%">
 
 <br>
 
@@ -63,7 +63,7 @@ And weirdly, when we visit the `robots.txt` we can read a specific line that dis
 
 And when visiting this newly discovered webpage, we're facing a chat between the admin and "Kate", talking about some **really instructive informations** : 
 
-<img src="./assets/Surfer_backup-chat.png" width="67%">
+<img src="./assets/Surfer_backup-chat.png" width="100%">
 
 <br>
 
