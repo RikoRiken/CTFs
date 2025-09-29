@@ -90,8 +90,10 @@ With Burp Suite, we can intercept an HTTP request, modify it and transfer it bac
 
 <img src="./assets/Surfer_Burpsuite.png" width="100%">
 
-Note that the body of the request contain an url parameter which is the url of the page that is exported in the PDF report. So we can try to modify it to get the `/internal/admin.php`. *(think to encode the url, so "`/`" begins "`%2F`")*
+Note that the body of the request contain an url field which is the url of the page that is exported in the PDF report. So we can try to modify it to get the `/internal/admin.php`. *(think to encode the url, so "`/`" become "`%2F`")*
 
 **and... BOOM** 💥 We just found our flag in the reported page `/internal/admin.php`! 
 
 <img src="./assets/Surfer_flag.png" width="100%">
+
+<br>
