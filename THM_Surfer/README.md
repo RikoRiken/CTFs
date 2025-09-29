@@ -70,3 +70,17 @@ And when visiting this newly discovered webpage, we're facing a chat between the
 MMMH... interresing. We can now try to authenticate through to login page we found previously and... **bingo** ! We're logged on a dashboard as admin.
 
 <img src="./assets/Surfer_Website-dashboard.png" width="100%">
+
+<br>
+
+While seeing around the website dashboard logged in as admin, we can figure out that one of the only interresing things we can do is generation a `.pdf` report.
+
+This is an example on report we can generate through the website : 
+
+<img src="./assets/Surfer_PDF-report.png" width="67%">
+
+<br>
+
+As we can see, the report is generated from the **local** server ! (proved by `http://127.0.0.1`)
+
+Maybe we can find a way to exploit this...
