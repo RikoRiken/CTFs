@@ -74,6 +74,7 @@ MMMH... interresing. We can now try to authenticate through to login page we fou
 <br>
 
 While seeing around the website dashboard logged in as admin, we can figure out that one of the only interresing things we can do is generation a `.pdf` report.
+Also, we notice on the right that an internal page is hosted and contain the **flag** !
 
 This is an example on report we can generate through the website : 
 
@@ -83,4 +84,14 @@ This is an example on report we can generate through the website :
 
 As we can see, the report is generated from the **local** server ! (proved by `http://127.0.0.1`)
 
-Maybe we can find a way to exploit this...
+Maybe we can find a way to exploit this... **Using Burp Suite** [(see Burp Suite documentation)](https://portswigger.net/burp/documentation)
+
+With Burp Suite, we can intercept an HTTP request, modify it and transfer it back to our browser, with the modificated request body or parameters.
+
+<img src="./assets/Surfer_Burpsuite.png" width="100%">
+
+Note that the body of the request contain an url parameter which is the url of the page that is exported in the PDF report. So we can try to modify it to get the `/internal/admin.php`. *(think to encode the url, so "`/`" begins "`%2F`")*
+
+**and... BOOM** 💥 We just found our flag in the reported page `/internal/admin.php`! 
+
+<img src="./assets/Surfer_flag.png" width="100%">
